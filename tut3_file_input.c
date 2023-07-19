@@ -1,5 +1,6 @@
 void tut3_file_input()
 {
+    //Read values from a file and draw a histogram of the entries
     TH1F *hist = new TH1F("hist", "Histogram", 20, 0, 100); //20 bins-bin interval 5 (from 0-100)
 
     fstream file;
