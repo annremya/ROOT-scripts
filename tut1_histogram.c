@@ -7,7 +7,7 @@ void tut1_histogram()
 
     hist->Fill(30);
     hist->Fill(70);
-    hist->Fill(65);
+    hist->Fill(55);
 
     hist->GetXaxis()->SetTitle("X Axis");
     hist->GetYaxis()->SetTitle("Y Axis");
