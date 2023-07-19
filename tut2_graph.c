@@ -1,7 +1,7 @@
 void tut2_graph()
 {
-    double x[5] = {1,2,3,4,5};
-    double y[5] = {1,4,9,16,25};
+    double x[5] = {1,2,3,4,5,6,7,8,9,10};
+    double y[5] = {1,4,9,16,25,36,49,64,81,100};
     
     //read TGraph functions on the reference guide page
     TGraph *gr = new TGraph(5,x,y);
